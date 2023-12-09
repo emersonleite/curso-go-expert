@@ -38,6 +38,6 @@ func sumError(a, b int) (int, error) {
 	if a+b >= 50 {
 		return 0, errors.New("A soma é maior que 50")
 	}
-	// nil -> nulo / null
+	// nil -> equivalente a null
 	return a + b, nil
 }
