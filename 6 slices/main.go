@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+/* Slices */
 func main() {
 	// slice sem tamanho fixo
 

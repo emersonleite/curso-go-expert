@@ -11,6 +11,7 @@ var (
 	f bool = true
 )
 
+/* Percorrendo arrays  */
 func main() {
 
 	// Definindo array com posições fixas

@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+/* Funções */
 func main() {
 	f := sum(1, 2)
 	fmt.Println(f)
@@ -12,8 +13,15 @@ func main() {
 	g, j := sum3(2, 50)
 	fmt.Println(g, j)
 
-	t, u := sumError(2, 50)
-	fmt.Println(t, u)
+	/* t, u := sumError(2, 50)
+	fmt.Println(t, u) */
+
+	value, errorV := sumError(2, 51)
+	if errorV != nil {
+		fmt.Println(errorV)
+		return
+	}
+	fmt.Println(value)
 }
 
 func sum(a int, b int) int {

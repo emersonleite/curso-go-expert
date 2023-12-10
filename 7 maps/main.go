@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+/* Maps */
 func main() {
 
 	salarios := map[string]int{"Emerson": 1000, "Mariana": 2000, "Marta": 3000}
