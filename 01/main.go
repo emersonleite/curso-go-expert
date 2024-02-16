@@ -1,8 +1,12 @@
 package main
 
+import "fmt"
+
+var emer string = "Emerson"
+
 func main() {
 
-	// println("Ola mosca")
-
+	fmt.Println(emer)
 	println(a)
+
 }
